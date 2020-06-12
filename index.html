@@ -3,12 +3,45 @@
   <head>
     <meta charset="utf-8">
     <title>Bloc de Notas</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+
+    <link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+    <link rel="stylesheet" type="text/css" href="plugins/fontawesome-5-13-0/css/all.css"/>
+   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous"> -->
+    
+
   </head>
   <body>
-    Hola este es mi bloc de notas
+    <h1 class="display-4">BLOC DE NOTAS</h1>
 
-    <br>
-    <br>
-    <img src="https://b1.pngbarn.com/png/136/75/bloc-de-notas-png-clip-art.png" width="200" />
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3"></div>
+        <div class="col-md-6 col-12" id="divGrande">
+          <div class="row" id="margenSearch">
+              <div class="col-md-9 col-sm- col-12">
+                <input type="text" name="buscar" class="form-control" placeholder="Buscar nota">
+              </div>
+              <div class="col-md-3 col-sm- col-12">
+                <button class="btn btn-danger float-right"><i class="fas fa-plus-circle fa-lg"></i></button>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 col-12 boderNotas" id="contenedorTexto">
+              <label class="col-md-9">nota 1uiugfghjkiuytgfhjiuyt ghjuytgfg bhjuygtf vbn juygtfgb hjuh</label>
+              <label class="col-md-3 float-right">12 Junio</label>
+            </div>
+          </div>
+
+        </div>       
+
+        <div class="col-md-3"></div>
+
+          
+      </div>
+      
+    </div>
+
   </body>
 </html>

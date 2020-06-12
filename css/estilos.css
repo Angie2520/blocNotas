@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+  /* Ubicación de la imagen */
+  background-image: url("../images/fondo1.jpg");
+  /* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+  background-position: center center;
+  /* Para que la imagen de fondo no se repita */
+  background-repeat: no-repeat;
+  /* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+  background-attachment: fixed;
+  /* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+  background-size: cover;
+  /* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+  background-color: #C18C65; }
+
+h1 {
+  font-family: "sans-serif";
+  text-align: center; }
+
+div#divGrande {
+  background: #F8C634;
+  border-radius: 1rem;
+  border-style: solid;
+  border-width: 2.3px; }
+
+div#margenSearch {
+  margin-top: 1rem;
+  margin-bottom: 1rem; }
+
+.boderNotas {
+  border-top-style: solid;
+  border-top-width: 1px;
+  /*border-bottom-style: solid;*/
+  /*border-bottom-width: 1px;*/ }
+
+/*Evita que el texto se salga de un div y que se le agregue el guión*/
+#contenedorTexto {
+  width: 100%;
+  /*background: red;*/
+  /*word-wrap: break-word;*/
+  word-break: break-all;
+  -webkit-hyphens: auto;
+      -ms-hyphens: auto;
+          hyphens: auto; }
+/*# sourceMappingURL=estilos.css.map */
