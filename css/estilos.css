@@ -38,30 +38,44 @@ h1 {
   width: 65%;
   margin: 2% auto 7% auto; }
 
-@media (max-width: 1440px) {
-  .boxMain {
-    width: 70%;
-    margin: 1% auto 6% auto; } }
-@media (max-width: 1366px) {
-  .boxMain {
+/*@media (max-width:1440px){
+    .boxMain {
+    width:70%;
+    margin: 1% auto 6% auto;
+    }
+}
+@media (max-width:1366px){
+    .boxMain {
     width: 72%;
-    margin: 1% auto 6% auto; } }
-@media (max-width: 768px) {
-  .boxMain {
-    margin: 1% auto 0;
-    width: 90%; } }
-@media (max-width: 667px) {
-  .boxMain {
+    margin: 1% auto 6% auto;
+    }
+}
+@media (max-width:768px){
+     .boxMain  {
+      margin: 1% auto 0;
+      width: 90%;
+    }
+}
+@media (max-width:667px){                                  
+    .boxMain {
     margin: 10% auto 0;
-    width: 93%; } }
-@media (max-width: 640px) {
-  .boxMain {
+    width: 93%;
+    }
+}
+
+@media (max-width:640px){                                  
+    .boxMain {
     margin: 10% auto 0;
-    width: 90%; } }
-@media (max-width: 320px) {
-  .boxMain {
-    margin: 1% auto 0;
-    width: 97%; } }
+    width: 90%;
+    }
+}
+
+@media (max-width:320px){                                  
+    .boxMain  {
+        margin:1% auto 0;
+        width: 97%;
+    }         
+}*/
 div#margenSearch {
   margin-top: 1rem;
   margin-bottom: 1rem;
