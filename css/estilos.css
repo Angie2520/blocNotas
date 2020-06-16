@@ -17,21 +17,79 @@ h1 {
   font-family: "sans-serif";
   text-align: center; }
 
-div#divGrande {
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+.boxMain {
+  /*min-height: 30%;*/
   background: #F8C634;
   border-radius: 1rem;
   border-style: solid;
-  border-width: 2.3px; }
+  border-width: 2.3px;
+  width: 65%;
+  margin: 2% auto 7% auto; }
 
+/*@media (max-width:1440px){
+    .boxMain {
+    width:70%;
+    margin: 1% auto 6% auto;
+    }
+}
+@media (max-width:1366px){
+    .boxMain {
+    width: 72%;
+    margin: 1% auto 6% auto;
+    }
+}
+@media (max-width:768px){
+     .boxMain  {
+      margin: 1% auto 0;
+      width: 90%;
+    }
+}
+@media (max-width:667px){                                  
+    .boxMain {
+    margin: 10% auto 0;
+    width: 93%;
+    }
+}
+
+@media (max-width:640px){                                  
+    .boxMain {
+    margin: 10% auto 0;
+    width: 90%;
+    }
+}
+
+@media (max-width:320px){                                  
+    .boxMain  {
+        margin:1% auto 0;
+        width: 97%;
+    }         
+}*/
 div#margenSearch {
   margin-top: 1rem;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem; }
 
 .boderNotas {
   border-top-style: solid;
   border-top-width: 1px;
-  /*border-bottom-style: solid;*/
-  /*border-bottom-width: 1px;*/ }
+  margin: 1rem 1rem 1rem 1rem;
+  /*	margin-top: 1rem;
+  	margin-left: 1rem;
+  	margin-right: 1rem;
+  	margin-bottom: 1rem;*/ }
 
 /*Evita que el texto se salga de un div y que se le agregue el guión*/
 #contenedorTexto {
@@ -42,4 +100,5 @@ div#margenSearch {
   -webkit-hyphens: auto;
       -ms-hyphens: auto;
           hyphens: auto; }
+
 /*# sourceMappingURL=estilos.css.map */
